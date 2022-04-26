@@ -1,6 +1,6 @@
 Package: nullrangesData
 Title: ExperimentHub datasets for the nullranges package
-Version: 1.1.1
+Version: 1.2.0
 Authors@R: c(
     person("Michael", "Love",
       role = c("aut", "cre"),
