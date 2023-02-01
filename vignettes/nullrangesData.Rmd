@@ -10,7 +10,8 @@ vignette: |
 
 The *nullrangesData* package provides datasets for the *nullranges*
 package vignette, in particular example datasets for exclusion
-regions, DNase hypersensitivity sites (DHS), CTCF binding sites,
+regions, DNase hypersensitivity sites (DHS), Single Cell Multiome ATAC and Gene Expression assay,
+CTCF binding sites,
 and CTCF genomic interactions.
 
 ```{r}
@@ -24,6 +25,15 @@ A549 DHS peaks (see `?DHSA549Hg38` for details).
 ```{r}
 dhs <- DHSA549Hg38()
 dhs
+```
+
+Chromium Single Cell Multiome ATAC + Gene Expression assay. See corresponding man pages for details..
+
+```{r}
+data("sc_rna")
+data("sc_promoter")
+sc_rna
+sc_promoter
 ```
 
 CTCF binding sites, 10kb bins with CTCF and DHS peaks, and CTCF-bound

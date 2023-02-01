@@ -9,7 +9,7 @@
 #' suppressPackageStartupMessages(library(GenomicRanges))
 #' dhs <- DHSA549Hg38()
 #' dhs
-#' 
+#'
 #' @importFrom utils read.csv
 #' @importFrom ExperimentHub createHubAccessors
 #' @import GenomicRanges InteractionSet
@@ -36,7 +36,7 @@ NULL
 #'
 #' dhs <- DHSA549Hg38()
 #' dhs
-#' 
+#'
 NULL
 
 #' 10Kb bins from hg19 with GM12878 metadata annotation features
@@ -53,7 +53,7 @@ NULL
 #'
 #' bins <- hg19_10kb_bins()
 #' bins
-#' 
+#'
 #' @name hg19_10kb_bins
 NULL
 
@@ -73,6 +73,32 @@ NULL
 #'
 #' binPairs <- hg19_10kb_ctcfBoundBinPairs()
 #' binPairs
-#' 
+#'
 #' @name hg19_10kb_ctcfBoundBinPairs
+NULL
+
+#' Chromium Single Cell Multiome ATAC + Gene Expression assay
+#'
+#' An example dataset of Single cell Gene and ATAC-seq data for
+#' Construction script is in 'inst/script/make-multiome-data.R'. Function returns a gene expression GRanges
+#' object with pseudo bulk counts stored in metadata column "counts1" as NumericList.
+#'
+#' @examples
+#'
+#' data("sc_rna")
+#'
+#' @name sc_rna
+NULL
+
+#' Chromium Single Cell Multiome ATAC + Gene Expression assay
+#'
+#' An example dataset of Single cell Gene and ATAC-seq data for
+#' Construction script is in 'inst/script/make-multiome-data.R'. Function returns a promoter GRanges
+#' object with pseudo bulk counts stored in metadata column "counts2" as NumericList.
+#'
+#' @examples
+#'
+#' data("sc_promoter")
+#'
+#' @name sc_promoter
 NULL
